@@ -56,7 +56,7 @@ $(document).ready(function() {
   		if (counter >= questions.length) {
   			document.getElementById("nright").innerHTML = rightAns;
   			document.getElementById("nwrong").innerHTML = wrongAns;
-  			overlayf();
+  			gameoverf();
   			start();
   		}
   		listQuestions(counter);
@@ -65,7 +65,7 @@ $(document).ready(function() {
   	start();
 });
 
-function overlayf() {
-		el = document.getElementById("overlay");
+function gameoverf() {
+		el = document.getElementById("gameover");
 		el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
 };
