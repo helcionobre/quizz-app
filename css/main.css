@@ -119,7 +119,7 @@ body {
 	margin-top: 1rem;
 }
 
-#gameover {
+#overlay {
      visibility: hidden;
      position: absolute;
      left: 0px;
@@ -130,7 +130,7 @@ body {
      z-index: 1000;
 }
 
-#gameover div {
+#overlay div {
      width:300px;
      margin: 210px auto;
      background-color: #fff;
